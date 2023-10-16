@@ -1,6 +1,10 @@
-# LangChain Python Script
+# LangChain Python Initial Tests
 
 This repository contains a Python script that demonstrates the capabilities of the `langchain` package, specifically its integration with OpenAI. The script showcases various functionalities such as generating comma-separated lists, translating text, and predicting messages.
+
+The script combines concepts and techniques from two tutorials:
+1. [The official LangChain Quickstart documentation](https://python.langchain.com/docs/get_started/quickstart#environment-setup).
+2. [Build a GPT-powered translator with LangChain](https://levelup.gitconnected.com/build-a-gpt-powered-translator-with-langchain-3e6915914daf)
 
 ## Getting Started
 
@@ -26,8 +30,9 @@ This repository contains a Python script that demonstrates the capabilities of t
 
 3. **Install Required Packages**:
    ```bash
-   pip install langchain openai
+   pip install python_dotenv langchain openai doctran virtualfish
    ```
+   - note that Doctor Ew like any good mad scientist doesn't run the "normal" shells, so `virtualfish` or Pycharm will help set up the proper environment
 
 4. **Environment Configuration**:
    - Create a `.env` file in the root directory of the project.
@@ -41,7 +46,7 @@ This repository contains a Python script that demonstrates the capabilities of t
 With the virtual environment activated and the `.env` file set up, you can run the script:
 
 ```bash
-python your_script_name.py
+python main.py
 ```
 
 This will execute the main function, which demonstrates various functionalities of the `langchain` package.
@@ -50,7 +55,7 @@ This will execute the main function, which demonstrates various functionalities 
 
 After following the tutorial and executing the script, you should see results similar to the ones shown below:
 
-![screenshot](https://www.doctorew.com/shuttlebay/Screen-Shot-2023-10-16-16-43-39.88.png)
+![screenshot](https://www.doctorew.com/shuttlebay/Screen-Shot-2023-10-16-17-17-52.07.png)
 
 ## Further Reading
 
@@ -59,3 +64,4 @@ For a more detailed guide on setting up and using the `langchain` package, pleas
 ---
 
 * Footnote: This README was crafted with the assistance of my GPT Assistant, A.C.E. (Artificial Chat Engineer).
+
