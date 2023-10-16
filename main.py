@@ -1,5 +1,6 @@
 import os
 from dotenv import load_dotenv
+import openai
 from langchain.llms import OpenAI
 from langchain.chat_models import ChatOpenAI
 from langchain.schema import HumanMessage
@@ -43,13 +44,13 @@ def translate_text():
         ("human", human_template),
     ])
 
-    return chat_prompt.format_messages(input_language="English", output_language="French",
+    return chat_prompt.format_messages(input_language="Yiddish", output_language="Klingon",
                                        text="I love programming.")
 
 
 def main():
-    name = 'PyCharm'
-    print(f'Hi, {name}')
+    name = 'Doctor Ew'
+    print(f'Hello there, {name}')
 
     text = "What would be a good company name for a company that makes colorful socks?"
     messages = [HumanMessage(content=text)]

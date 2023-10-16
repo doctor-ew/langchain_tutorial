@@ -48,7 +48,9 @@ This will execute the main function, which demonstrates various functionalities 
 
 ### Results
 
-After following the tutorial and executing the script, you should see results similar to the ones shown in this [screenshot](https://www.doctorew.com/shuttlebay/Screen-Shot-2023-10-16-16-13-43.41.png).
+After following the tutorial and executing the script, you should see results similar to the ones shown below:
+
+![screenshot](https://www.doctorew.com/shuttlebay/Screen-Shot-2023-10-16-16-43-39.88.png)
 
 ## Further Reading
 
